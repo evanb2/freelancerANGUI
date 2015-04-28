@@ -3,21 +3,60 @@ body { padding-top: 70px; }
 .RIGHT {
     padding-left: 500px;
 }
+
+.bg-images {
+    color: #993300;
+}
+
+#tileh2 {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    margin-left: 150px;
+}
+
+#tilep {
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+#tilebutton1 {
+    margin-left: 150px;
+    background-color: rgba(47, 44, 44, 00);
+    font-weight: bold;
+    color: black;
+}
+
+#tilebutton2 {
+    margin-left: 150px;
+    background-color: rgba(47, 44, 44, 00);
+    font-weight: bold;
+    color: black;
+}
+
+#tilebutton1:hover {
+    background-color: rgba(47, 44, 44, 0.2);
+}
+
+#tilebutton2:hover {
+    background-color: rgba(47, 44, 44, 0.2);
+}
+
+
 /////////////////////////////Slideshow//////////////////////////////////
 
 /* http://themarklee.com/2013/10/16/simple-crossfading-slideshow-css/ */
 .css-slideshow {
 position: relative;
-max-width: 495px;
-height: 370px;
+max-width: auto;
+height: auto;
 margin: 1em auto .5em auto;
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 font-weight: 300;
 }
 .css-slideshow figure {
 margin: 0;
-max-width: 495px;
-height: 370px;
+max-width: auto;
+height: auto;
 background: #fff;
 position: absolute;
 }
@@ -27,7 +66,7 @@ box-shadow: 0 0 2px #666;
 }
 .css-slideshow figcaption {
 position: absolute;
-top: 5px;
+bottom: 5px;
 color: #fff;
 background: rgba(0,0,0, .3);
 font-size: .8em;
