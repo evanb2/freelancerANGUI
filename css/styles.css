@@ -15,19 +15,19 @@ body { padding-top: 70px; }
 }
 
 #tilep {
-    margin-left: 150px;
+    margin-left: 190px;
     padding-top: 100px;
 }
 
 #tilebutton1 {
-    margin-left: 150px;
+    margin-left: 190px;
     background-color: rgba(47, 44, 44, 00);
     font-weight: bold;
     color: black;
 }
 
 #tilebutton2 {
-    margin-left: 150px;
+    margin-left: 190px;
     background-color: rgba(47, 44, 44, 00);
     font-weight: bold;
     color: black;
@@ -40,6 +40,35 @@ body { padding-top: 70px; }
 #tilebutton2:hover {
     background-color: rgba(47, 44, 44, 0.2);
 }
+
+#row2 {
+    margin-top: 200px;
+    padding-bottom: 100px;
+    background-color: black;
+    color: white;
+}
+
+#starth2 {
+    text-align: center;
+}
+
+.col-md-3 {
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    /*margin-left: 5px;
+    margin-right: 5px;*/
+}
+
+.col-md-3:hover {
+    cursor: pointer;
+}
+
+.icons {
+    border-style: solid;
+}
+
+
 
 
 /////////////////////////////Slideshow//////////////////////////////////
