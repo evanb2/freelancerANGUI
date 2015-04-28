@@ -8,3 +8,10 @@ freelancer.config(function($stateProvider) {
 });
 
 //directives
+freelancer.directive("border", function() {
+    return function (scope, element, attrs) {
+        element.bind("mouseenter", function() {
+            
+        });
+    }
+});

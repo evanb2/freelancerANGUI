@@ -1,11 +1,13 @@
-body { padding-top: 70px; }
+body {
+    padding-top: 70px;
+}
 
 .RIGHT {
     padding-left: 500px;
 }
 
 .bg-images {
-    color: #993300;
+    color: #C4C4C4;
 }
 
 #tileh2 {
@@ -25,7 +27,7 @@ body { padding-top: 70px; }
     margin-left: 190px;
     background-color: rgba(47, 44, 44, 00);
     font-weight: bold;
-    color: black;
+    color: white;
     font-family: "Lucida Grande";
 }
 
@@ -33,7 +35,7 @@ body { padding-top: 70px; }
     margin-left: 190px;
     background-color: rgba(47, 44, 44, 00);
     font-weight: bold;
-    color: black;
+    color: white;
     font-family: "Lucida Grande";
 }
 
@@ -58,17 +60,12 @@ body { padding-top: 70px; }
 
 .col-md-3 {
     text-align: center;
-    border-style: solid;
-    border-radius: 20px;
 }
 
 .col-md-3:hover {
     cursor: pointer;
-}
-
-.icons {
     border-style: solid;
-    padding-bottom: 100px;
+    border-radius: 20px;
 }
 
 .box {
